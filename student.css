@@ -83,4 +83,27 @@ body {
   border-radius: 8px;
   margin-bottom: 15px;
 }
+/* RESPONSIVE LAYOUT FOR MOBILE */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* stack all sections */
+    }
+
+    .announcement-box {
+        width: 100%;
+    }
+
+    .courses, 
+    .profile-card,
+    .announcement-box {
+        width: 100%;
+    }
+
+    header.topbar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
 
