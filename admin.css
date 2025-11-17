@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a760b;
+  color: #fff;
+  padding: 12px 20px;
+}
+.topbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+.topbar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.main-layout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.left-panel  { flex: 0 0 16%; }
+.middle-panel { flex: 3; }
+.right-panel  {  display: none;  }
+
+.sidebar {
+  background: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  min-height: 500px;
+}
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: #0a4fa3;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 6px;
+  display: block;
+}
+.sidebar ul li a:hover {
+  background: #0860b9;
+  color: #fff;
+}
+.manage-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 500px;
+  width:100%;
+}
+.manage-section h2 {
+  margin-bottom: 12px;
+  color: #004d99;
+}
+.manage-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.manage-section th,
+.manage-section td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.manage-section th {
+  background: #eef3fb;
+  color: #004d99;
+}
+
+.btn {
+  padding: 6px 12px;
+  background: #0a4fa3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #003366;
+}

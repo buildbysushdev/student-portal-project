@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+
+    <h2>Login Portal</h2>
+
+    <div class="switch-box">
+        <button id="studentBtn" class="active" onclick="showStudent()">Student</button>
+        <button id="adminBtn" onclick="showAdmin()">Admin</button>
+    </div>
+
+
+    <div id="studentForm" class="form-box">
+        <input id="studentPRN" type="text" placeholder="Enter PRN" value="20250802351">
+        <input id="studentPass" type="password" placeholder="Password" value="123456">
+        <button onclick="studentLogin()">Login</button>
+    </div>
+
+    <div id="adminForm" class="form-box" style="display:none;">
+        <input id="adminUser" type="text" placeholder="Admin Username" value="admin">
+        <input id="adminPass" type="password" placeholder="Password" value="123456">
+        <button onclick="adminLogin()">Login</button>
+    </div>
+
+    <p id="errorMsg"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
