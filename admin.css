@@ -95,10 +95,9 @@ body {
 .btn:hover {
   background: #003366;
 }
-/* RESPONSIVE LAYOUT FOR MOBILE */
 @media (max-width: 768px) {
     .container {
-        grid-template-columns: 1fr; /* stack all sections */
+        grid-template-columns: 1fr; 
     }
 
     .announcement-box {
@@ -117,5 +116,6 @@ body {
         text-align: center;
     }
 }
+
 
 
